@@ -1,6 +1,6 @@
 h1 {
 font-family: Balon;
-font-size: 60px;
+font-size: 40px;
 }
 
 p {
@@ -16,4 +16,5 @@ src: url('balloon.ttf');
 @font-face {
 font-family: Calibri;
 src: url('calibri.ttf');
+
 }
