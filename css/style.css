@@ -1,0 +1,57 @@
+html {width:100%;height:100%}
+body {height:3600px;width:100%}
+.app-viewport {position:absolute;top:0;bottom:0;width:100%}
+html{background:#eeeeee}body{background:rgba(255,255,255,0);position:absolute;top:0px;bottom:0px;left:0px;right:0px;margin:auto}p,h1,h2,h3,h4,h5,h6{overflow:hidden}a:focus,.btn:focus,.btn:active:focus,.btn.active:focus,.btn.focus,.btn:active.focus,.btn.active.focus,input[type="radio"]:focus,input[type="checkbox"]:focus{outline:0}.nav,.pagination,.carousel,.panel-title a{cursor:pointer}.modal{overflow:auto}.modal-dialog{margin-top:0;margin-bottom:0;padding-top:10px}.modal-content{overflow:hidden}.modal-backdrop{opacity:.5}.pagination{margin:0}.input-group-btn{vertical-align:top}.input-group-btn>.btn{height:100%}.input-group>.form-control{height:100%}.input-group{padding:0}.neocheckbox [type="checkbox"]:not(:checked),.neocheckbox [type="checkbox"]:checked{position:absolute;left:-9999px}.neocheckbox [type="checkbox"]:not(:checked) + label,.neocheckbox [type="checkbox"]:checked + label{position:relative;padding-left:1.95em;cursor:pointer}.neocheckbox [type="checkbox"]:not(:checked) + label:before,.neocheckbox [type="checkbox"]:checked + label:before{content:'';position:absolute;left:0;top:0;width:1.25em;height:1.25em;border:0.15em solid #aaa;background:#fff;border-radius:4px}.neocheckbox [type="checkbox"]:not(:checked) + label:after,.neocheckbox [type="checkbox"]:checked + label:after{content:"\2713\0020";position:absolute;top:.2em;left:.2em;font-size:1.1em;line-height:0.8;color:#444444;transition:all .2s;font-family:'Lucida Sans Unicode','Arial Unicode MS',Arial}.neocheckbox [type="checkbox"]:not(:checked) + label:after{opacity:0;transform:scale(0)}.neocheckbox [type="checkbox"]:checked + label:after{opacity:1;transform:scale(1)}.neocheckbox [type="checkbox"]:disabled:not(:checked) + label:before,.neocheckbox [type="checkbox"]:disabled:checked + label:before{box-shadow:none;border-color:#bbb;background-color:#ddd}.neocheckbox [type="checkbox"]:disabled:checked + label:after{color:#999}.neocheckbox [type="checkbox"]:disabled + label{color:#aaa}.neocheckbox label:hover:before{border:0.15em solid #888!important}.neoradio [type="radio"]:not(:checked),.neoradio [type="radio"]:checked{position:absolute;left:-9999px}.neoradio [type="radio"]:not(:checked) + label,.neoradio [type="radio"]:checked + label{position:relative;padding-left:1.95em;cursor:pointer}.neoradio [type="radio"]:not(:checked) + label:before,.neoradio [type="radio"]:checked + label:before{content:'';position:absolute;left:0;top:0;width:1.25em;height:1.25em;border:0.15em solid #aaa;background:#fff;border-radius:100px}.neoradio [type="radio"]:not(:checked) + label:after,.neoradio [type="radio"]:checked + label:after{content:"\2713\0020";position:absolute;top:.2em;left:.2em;font-size:1.1em;line-height:0.8;color:#444444;transition:all .2s;font-family:'Lucida Sans Unicode','Arial Unicode MS',Arial}.neoradio [type="radio"]:not(:checked) + label:after{opacity:0;transform:scale(0)}.neoradio [type="radio"]:checked + label:after{opacity:1;transform:scale(1)}.neoradio [type="radio"]:disabled:not(:checked) + label:before,.neoradio [type="radio"]:disabled:checked + label:before{box-shadow:none;border-color:#bbb;background-color:#ddd}.neoradio [type="radio"]:disabled:checked + label:after{color:#999}.neoradio [type="radio"]:disabled + label{color:#aaa}.neoradio label:hover:before{border:0.15em solid #888!important}
+#banner {position:absolute;left:0px;width:260.416666666667%;top:3px;height:116px;margin:0;color:#FFFFFF;font-family:Times New Roman,Times,serif;background-color:#2F4F4F;border-style:solid;border-width:1px;cursor:pointer;overflow-x:hidden;overflow-y:hidden}
+#Inicio {position:relative;width:100%;height:100%;overflow:auto;;background-color:#fdf6e3;overflow-y:scroll}
+#Cont_portada {position:absolute;left:2.47395833333333%;width:92.8385416666667%;top:123px;height:708px;margin:0;text-align:center;border-width:1px;overflow-x:hidden;overflow-y:hidden}
+#btn1 {position:absolute;left:10.2384291725105%;width:80.0841514726508%;top:375px;height:90px;margin:0;color:#800000;font-family:Times New Roman,Times,serif;background-color:#B2D0DC;border-width:1px;cursor:pointer;overflow-x:hidden;overflow-y:hidden}
+#btn2 {position:absolute;left:10.2384291725105%;width:80.0841514726508%;top:484px;height:90px;margin:0;color:#800000;font-family:Times New Roman,Times,serif;background-color:#B2D0DC;border-width:1px;cursor:pointer;overflow-x:hidden;overflow-y:hidden}
+#btn3 {position:absolute;left:10.2384291725105%;width:80.0841514726508%;top:594px;height:90px;margin:0;color:#800000;font-family:Times New Roman,Times,serif;background-color:#B2D0DC;border-width:1px;cursor:pointer;overflow-x:hidden;overflow-y:hidden}
+#bio {position:absolute;left:8.46354166666667%;width:83.0729166666667%;top:831px;height:717px;margin:0;border-width:1px;overflow-x:hidden;overflow-y:hidden}
+#Discos {position:relative;width:100%;height:100%;overflow:auto;;background-color:#fdf6e3;overflow-y:scroll}
+#Discografia {position:relative;width:751px;height:3472px;margin:110px 0 0 0;border-width:1px;cursor:pointer;overflow-y:scroll;overflow-x:hidden}
+#Album1 {position:relative;width:100%;height:100%;overflow:auto;;background-color:#fdf6e3;overflow-y:scroll}
+#html {position:absolute;left:1.5625%;width:97.5260416666667%;top:119px;height:2469px;margin:0;border-width:1px;overflow-x:hidden;overflow-y:hidden}
+#Album2 {position:relative;width:100%;height:100%;overflow:auto;;background-color:#fdf6e3;overflow-y:scroll}
+#Container9 {position:absolute;left:1.5625%;width:97.5260416666667%;top:119px;height:2469px;margin:0;border-width:1px;overflow-x:hidden;overflow-y:hidden}
+#Album3 {position:relative;width:100%;height:100%;overflow:auto;;background-color:#fdf6e3;overflow-y:scroll}
+#Container10 {position:absolute;left:1.5625%;width:97.5260416666667%;top:119px;height:2469px;margin:0;border-width:1px;overflow-x:hidden;overflow-y:hidden}
+#Album4 {position:relative;width:100%;height:100%;overflow:auto;;background-color:#fdf6e3;overflow-y:scroll}
+#Container11 {position:absolute;left:1.5625%;width:97.5260416666667%;top:119px;height:2469px;margin:0;border-width:1px;overflow-x:hidden;overflow-y:hidden}
+#Album5 {position:relative;width:100%;height:100%;overflow:auto;;background-color:#fdf6e3;overflow-y:scroll}
+#Container12 {position:absolute;left:1.5625%;width:97.5260416666667%;top:119px;height:2469px;margin:0;border-width:1px;overflow-x:hidden;overflow-y:hidden}
+#Album6 {position:relative;width:100%;height:100%;overflow:auto;;background-color:#fdf6e3;overflow-y:scroll}
+#Container13 {position:absolute;left:1.5625%;width:97.5260416666667%;top:119px;height:2469px;margin:0;border-width:1px;overflow-x:hidden;overflow-y:hidden}
+#Album7 {position:relative;width:100%;height:100%;overflow:auto;;background-color:#fdf6e3;overflow-y:scroll}
+#Container14 {position:absolute;left:1.5625%;width:97.5260416666667%;top:119px;height:2469px;margin:0;border-width:1px;overflow-x:hidden;overflow-y:hidden}
+#Album8 {position:relative;width:100%;height:100%;overflow:auto;;background-color:#fdf6e3;overflow-y:scroll}
+#Container15 {position:absolute;left:1.5625%;width:97.5260416666667%;top:119px;height:2469px;margin:0;border-width:1px;overflow-x:hidden;overflow-y:hidden}
+#Galeria {position:relative;width:100%;height:100%;overflow:auto;;background-color:#fdf6e3;overflow-y:scroll}
+#Cont_GALERIA {position:absolute;left:2.47395833333333%;width:95.1822916666667%;top:153px;height:1422px;margin:0;border-width:1px;overflow-x:hidden;overflow-y:hidden}
+#Contacto {position:relative;width:100%;height:100%;overflow:auto;;background-color:#fdf6e3}
+#Cont_COMENTARIOS {position:absolute;left:0px;width:100%;top:128px;height:2235px;margin:0;border-width:1px;overflow-x:hidden;overflow-y:hidden}
+#DialogContainer1 {margin-left:auto;margin-right:auto;width:100%;height:1024px;}
+#bio {width: 85%;}
+
+#banner {position:fixed;padding-right:30px;width: 100%;border-radius:15px;}
+
+.encabezado {display: flex;justify-content: space-between;align-items: center;padding: 10px;}
+
+.logo img {height: 80px;}
+
+.titulos {text-align: right;}
+
+
+.titulos h1, .titulos h4 {margin: 0;}
+#btn1 {border-radius:15px;width:250px;width:80%;}
+#btn2 {border-radius:15px;width:250px;width:80%;}
+#btn3 {border-radius:15px;width:250px;width:80%;}
+#Cont_portada {width:95%;}
+
+.iframe {width:100%;height:100%;position:flex;}
+#Discografia {width:100%;}
+.portada {border: 2px solid #000000;border-radius: 8px;margin-bottom: 20px;}
+#Cont_COMENTARIOS {width:100%;}
+
+.glass {background: rgba(255, 255, 255, 0.45);border-radius: 16px;padding: 24px;height: 550px;width: 100%;max-width: 500px;box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);backdrop-filter: blur(5px);-webkit-backdrop-filter: blur(10px);border: 1px solid rgba(255, 255, 255, 0.3);text-align: center;overflow-y: auto;position:relative;margin: 0 auto}

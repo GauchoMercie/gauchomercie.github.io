@@ -1,0 +1,19 @@
+h1 {
+font-family: Balon;
+font-size: 60px;
+}
+
+p {
+font-family: Calibri;
+font-size: 20px;
+}
+
+@font-face {
+font-family: Balon;
+src: url('balloon.ttf');
+}
+
+@font-face {
+font-family: Calibri;
+src: url('calibri.ttf');
+}
