@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+<title>Galería</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {background-color:#fdf6e3;}
+
+/* --- Contenedor principal --- */
+.slider {
+  position: relative;
+  width: 90%;             /* ocupa el 90% del ancho disponible */
+  max-width: 600px;       /* nunca más ancho de 600px */
+  overflow: hidden;
+  border-radius: 12px;
+  margin: 30px auto;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+/* --- Imágenes --- */
+.slides img {
+  display: none;
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  object-fit: cover;
+}
+
+.slides img.active {
+  display: block;
+}
+
+/* --- Flechas de control --- */
+.slider button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0,0,0,0.4);
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  cursor: pointer;
+  border-radius: 50%;
+  font-size: 22px;
+  transition: background 0.3s, transform 0.2s;
+}
+
+.slider button:hover {
+  background-color: rgba(0,0,0,0.7);
+  transform: translateY(-50%) scale(1.1);
+}
+
+.prev {
+  left: 10px;
+}
+
+.next {
+  right: 10px;
+}
+
+/* --- Ajuste para pantallas chicas --- */
+@media (max-width: 600px) {
+  .slider button {
+    padding: 8px 12px;
+    font-size: 18px;
+  }
+}
+</style>
+</head>
+<body>
+<div class="slider">
+  <div class="slides">
+<img src="img (1).jpg" alt="Imagen 1" class="active">
+<img src="img (2).jpg" alt="Imagen 2">
+<img src="img (3).jpg" alt="Imagen 3">
+<img src="img (4).jpg" alt="Imagen 4">
+<img src="img (5).jpg" alt="Imagen 5">
+<img src="img (6).jpg" alt="Imagen 6">
+<img src="img (7).jpg" alt="Imagen 7">
+<img src="img (8).jpg" alt="Imagen 8">
+<img src="img (9).jpg" alt="Imagen 9">
+<img src="img (10).jpg" alt="Imagen 10">
+<img src="img (11).jpg" alt="Imagen 11">
+<img src="img (12).jpg" alt="Imagen 12">
+<img src="img (13).jpg" alt="Imagen 13">
+<img src="img (14).jpg" alt="Imagen 14">
+<img src="img (15).jpg" alt="Imagen 15">
+<img src="img (16).jpg" alt="Imagen 16">
+<img src="img (17).jpg" alt="Imagen 17">
+<img src="img (18).jpg" alt="Imagen 18">
+<img src="img (19).jpg" alt="Imagen 19">
+<img src="img (20).jpg" alt="Imagen 20">
+<img src="img (21).jpg" alt="Imagen 21">
+<img src="img (22).jpg" alt="Imagen 22">
+<img src="img (23).jpg" alt="Imagen 23">
+</div>
+</div>
+<hr>
+<div align="center">
+<button class="prev" onclick="prevImage()">&#10094;</button>&nbsp;&nbsp;&nbsp;&nbsp;
+<button class="next" onclick="nextImage()">&#10095;</button>
+</div>
+
+<script>
+let current = 0;
+const slides = document.querySelectorAll('.slides img');
+
+function showImage(index) {
+  slides.forEach(img => img.classList.remove('active'));
+  slides[index].classList.add('active');
+}
+
+function nextImage() {
+  current = (current + 1) % slides.length;
+  showImage(current);
+}
+
+function prevImage() {
+  current = (current - 1 + slides.length) % slides.length;
+  showImage(current);
+}
+</script>
+
+</body></html>
